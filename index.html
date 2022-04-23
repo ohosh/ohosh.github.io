@@ -173,7 +173,7 @@
 <hr>
 <blockquote>
 <p>① 先说第一个问题：Q，K，V是怎么得到的？<br>其实一般就是直接用原始的输入数据乘以可训练的权重Wq，Wk，Wv得到。<br>② 使用每个q去和其他的k，v计算还是用k？<br>在计算的过程中，用每个q去查询，当前点xi对应的qi与所有的K计算权重，然后权重进行softmax，之后对应的权重与对应的V计算，得到self-attention；不是为了给q找v，而是去找v的加权和</p>
-<p><img src="/../../themes/yilia/source/img/qkv.png" alt="qkv"></p>
+<p><img src="https://github.com/ohosh/ohosh.github.io/blob/master/img/qkv.png?raw=true" alt="qkv"></p>
 </blockquote>
 
       
