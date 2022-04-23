@@ -6,15 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://ohosh.github.io">
-  <title>Archives | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="被Q，K，V折磨的日子   Q，K，V是怎么得到的？ 使用每个q去和其他的k，v计算还是用k？     ① 先说第一个问题：Q，K，V是怎么得到的？其实一般就是直接用原始的输入数据乘以可训练的权重Wq，Wk，Wv得到。② 使用每个q去和其他的k，v计算还是用k？在计算的过程中，用每个q去查询，当前点xi对应的qi与所有的K计算权重，然后权重进行softmax，之后对应的权重与对应的V计算，得到se">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://ohosh.github.io/archives/index.html">
+<meta property="og:url" content="https://ohosh.github.io/2022/04/23/%E8%A2%ABQ%EF%BC%8CK%EF%BC%8CV%E6%8A%98%E7%A3%A8%E7%9A%84%E6%97%A5%E5%AD%90/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="被Q，K，V折磨的日子   Q，K，V是怎么得到的？ 使用每个q去和其他的k，v计算还是用k？     ① 先说第一个问题：Q，K，V是怎么得到的？其实一般就是直接用原始的输入数据乘以可训练的权重Wq，Wk，Wv得到。② 使用每个q去和其他的k，v计算还是用k？在计算的过程中，用每个q去查询，当前点xi对应的qi与所有的K计算权重，然后权重进行softmax，之后对应的权重与对应的V计算，得到se">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ohosh.github.io/themes/yilia/source/img/qkv.png">
+<meta property="article:published_time" content="2022-04-23T12:52:56.537Z">
+<meta property="article:modified_time" content="2022-04-23T12:54:01.776Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ohosh.github.io/themes/yilia/source/img/qkv.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -156,70 +162,152 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-被Q，K，V折磨的日子" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="被Q，K，V折磨的日子"><a href="#被Q，K，V折磨的日子" class="headerlink" title="被Q，K，V折磨的日子"></a>被Q，K，V折磨的日子</h1><hr>
+<blockquote>
+<ul>
+<li>Q，K，V是怎么得到的？</li>
+<li>使用每个q去和其他的k，v计算还是用k？</li>
+</ul>
+</blockquote>
+<hr>
+<blockquote>
+<p>① 先说第一个问题：Q，K，V是怎么得到的？<br>其实一般就是直接用原始的输入数据乘以可训练的权重Wq，Wk，Wv得到。<br>② 使用每个q去和其他的k，v计算还是用k？<br>在计算的过程中，用每个q去查询，当前点xi对应的qi与所有的K计算权重，然后权重进行softmax，之后对应的权重与对应的V计算，得到self-attention；不是为了给q找v，而是去找v的加权和</p>
+<p><img src="/../../themes/yilia/source/img/qkv.png" alt="qkv"></p>
+</blockquote>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/04/23/%E8%A2%ABQ%EF%BC%8CK%EF%BC%8CV%E6%8A%98%E7%A3%A8%E7%9A%84%E6%97%A5%E5%AD%90/" class="archive-article-date">
-  	<time datetime="2022-04-23T12:52:56.537Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-23</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://ohosh.github.io/2022/04/23/%E8%A2%ABQ%EF%BC%8CK%EF%BC%8CV%E6%8A%98%E7%A3%A8%E7%9A%84%E6%97%A5%E5%AD%90/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/04/21/%E8%BF%99%E6%98%AF%E5%B0%8F%E5%A7%9A%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E8%AF%95%E6%B0%B4/" class="archive-article-date">
-  	<time datetime="2022-04-21T10:10:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-21</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2022/04/21/%E8%BF%99%E6%98%AF%E5%B0%8F%E5%A7%9A%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E8%AF%95%E6%B0%B4/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">这是小姚的第一篇博客试水</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/04/21/%E8%BF%99%E6%98%AF%E5%B0%8F%E5%A7%9A%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E8%AF%95%E6%B0%B4/">这是小姚的第一篇博客试水</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -242,8 +330,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
